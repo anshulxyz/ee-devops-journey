@@ -1,0 +1,17 @@
+[project]
+name = "fastapi-hello-world"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Anshul Chauhan", email = "anshulchauhan@outlook.com" }
+]
+dependencies = [
+    "fastapi[standard]>=0.112.1",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
